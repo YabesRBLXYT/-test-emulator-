@@ -228,4 +228,69 @@
             <span class="message" id="tempMessage"></span>
         </div>
     </body>
+		</html>          </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Volume
+                        <ul>
+                            <li>
+                                <input type="range" id="volume">
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="saves_menu">
+                        Saves
+                        <ul id="saves_menu_container">
+                            <li>
+                                <span>Import:</span><input type="file" id="import" class="files">
+                            </li>
+                            <li id="existing_saves">
+                                <span>Existing Saves</span>
+                                <ul id="existing_saves_list">
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./" id="export" target="_new">Export All Saves</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="fullscreen">Fullscreen</li>
+                    <li>
+                        <span id="speed">Speed</span>
+                        <ul>
+                            <li>
+                                <input type="range" id="speedset">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="main">
+                <canvas class="canvas" id="emulator_target" width="240" height="160"></canvas>
+            </div>
+            <div class="touch-controls">
+                <div class="touch-dpad">
+                    <button id="touch-up">↑</button><br>
+                    <button id="touch-left">←</button>
+                    <button id="touch-right">→</button><br>
+                    <button id="touch-down">↓</button>
+                </div>
+                <div class="touch-buttons">
+                    <button id="touch-select">SELECT</button> 
+                    <button id="touch-start">START</button>
+                </div>
+                <div class="touch-buttons">
+                    <button id="touch-a">A</button>
+                    <button id="touch-b">B</button><br>
+                    <button id="touch-l">L</button>
+                    <button id="touch-r">R</button>
+                </div>
+            </div>
+            <span class="message" id="tempMessage"></span>
+        </div>
+    </body>
 </html>
